@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Front Page</title>
+</head>
+<body>
+    <h1>Front Page</h1>
+    <ul>
+        {% for item in data %}
+            <li>{{ item.votes_to_skip }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
